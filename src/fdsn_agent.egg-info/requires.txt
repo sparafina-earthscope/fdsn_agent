@@ -1,0 +1,10 @@
+
+[dev]
+pytest>=8
+pytest-cov
+responses>=0.25
+mypy>=1.8
+ruff>=0.4
+
+[requests]
+requests>=2.31
