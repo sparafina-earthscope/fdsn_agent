@@ -17,7 +17,7 @@ SYSTEM_PROMPT: str = textwrap.dedent("""
     ==============
 
     fdsn_station  —  IRIS FDSNWS station service
-      Required params: at least one of network, station, or a geographic filter
+      Required params: at least one of network, station, level, or a geographic filter
       Optional params: network, station, location, channel,
                        starttime, endtime,
                        minlatitude, maxlatitude, minlongitude, maxlongitude,
